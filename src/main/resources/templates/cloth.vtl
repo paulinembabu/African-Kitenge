@@ -1,0 +1,58 @@
+<div class="container">
+<nav class="navbar navbar-invisible">
+<hr class="hr">
+<h1 id="heads"> $clothe.getName()</h1>
+<hr class="hr">
+</nav>
+
+
+<div class ="row">
+<div class ="col-md-6 col">
+<img src="$clothe.getImgUrl()" width="75%"/>
+
+</div>
+<div class ="col-md-6">
+<li class="list-group-item disabled list-group-item-info texts"> 
+$clothe.getPrice()
+</li>
+<br>
+<br>
+<li class="list-group-item disabled list-group-item-info texts"> 
+$clothe.getDescription()
+</li>
+<br>
+<br>
+<li class="list-group-item disabled list-group-item-info texts"> 
+$clothe.getSize()
+</li>
+<br>
+<br>
+<form action="/clothes/$clothe.getId()/cartAdd" method="post">
+<label for="quantity"> QUANTITY </label>
+<select class="form-control"  name="items">
+  <option value ="1"> 1 </option>
+  <option value ="2"> 2 </option>
+  <option value ="3"> 3 </option>
+  <option value ="4"> 4 </option>
+  <option value ="5"> 5 </option>
+  <option value ="6"> 6 </option>
+  <option value ="7"> 7 </option>
+  <option value ="8"> 8 </option>
+  <option value ="9"> 9 </option>
+  <option value="10"> 10 </option>
+</select>
+ 
+
+<br>
+<br>
+
+<button type="submit" class="myButton btn ">Add To Cart</button>
+</form>
+ 
+	
+
+</div>
+</div>
+</div>
+
+

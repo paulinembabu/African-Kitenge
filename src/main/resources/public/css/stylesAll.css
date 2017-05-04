@@ -1,0 +1,84 @@
+.imglook a img{
+        
+        width: 100%;
+        height: 100%;
+	
+}
+
+
+.navbar-transparent{
+	border-color:black;
+}
+
+#heads{
+	font-family:serif;
+    /*font-family:serif;*/
+	font-style: oblique;
+	font-size: 3.875em;
+	text-align: center;
+	color: #0D0D0D;
+}
+
+.hr{
+	color: black;
+}
+
+.text{
+	font-family:serif;
+	text-align: center;
+	color: #000000;
+	font-size: 1.200em;
+}
+
+.myButton {
+	
+	background-color: #000000;
+	color: white;
+	font-size: 25px;
+}.myButton:hover {
+	
+	background-color: #000000;
+	color: white;
+	
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.col{
+	padding-left:5%;
+}
+.signup{
+	width:40%;
+	padding-left:5%
+}
+
+.login{
+	width:40%;
+	padding-right:3%;
+	padding-left:10%;
+}
+
+.designersImg{
+	padding:1px;
+   border:1px solid white;
+   width:20%;
+ 
+}
+.colDesignerleft{
+	padding-left:5%;
+}
+
+.designertext{
+	font-family:serif;
+	text-align: center;
+	color: #000000;
+	font-size: 2.200em;
+}
+.cart{
+	width:30%;
+}
+.colDesignerright{
+	padding-right:15%;
+}

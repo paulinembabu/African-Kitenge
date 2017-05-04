@@ -1,0 +1,70 @@
+<div class="row">
+<div class="col-md-6 signup">
+<nav class="navbar navbar-invisible">
+<hr class="hr">
+<h1 id="heads"> SIGN UP</h1>
+<hr class="hr">
+</nav>
+
+<form action="/signup" method="post">
+    <div class="form-group">
+      <label for="name">User Name:</label>
+      <input type="text" class="form-control" name="name" id="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control" name="email" id="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" name="password" id="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-success">Sign Up</button>
+    <!-- Trigger the modal with a button -->
+    ## <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Login</button>
+  </form>
+
+</div>
+<!-- Modal -->
+
+<div class="col-md-6 login">
+<nav class="navbar navbar-invisible">
+<hr class="hr">
+<h1 id="heads"> LOGIN</h1>
+<hr class="hr">
+</nav>
+
+## <div id="myModal" class="modal fade" role="dialog">
+##   <div class="modal-dialog">
+
+##     <!-- Modal content-->
+##     <div class="modal-content">
+##       <div class="modal-header">
+##         <button type="button" class="close" data-dismiss="modal">&times;</button>
+##         <h4 class="modal-title">Modal Header</h4>
+##       </div>
+##       <div class="modal-body">
+        <form action="\login" method="post">
+          <div class="form-group">
+            <label for="name">User Name:</label>
+            <input type="text" class="form-control" name="name" id="name">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" name="password" id="pwd">
+          </div>
+          <button type="submit" class="btn btn-success">Login</button>
+        </form>
+      </div>
+      ## <div class="modal-footer">
+      ##   <button type="submit" class="btn btn-success" data-dismiss="modal">Login</button>
+      ## </div>
+##     </div>
+
+##   </div>
+## </div>
+## </div>
+</div>

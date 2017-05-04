@@ -1,0 +1,39 @@
+
+<div class="container">
+<nav class="navbar navbar-invisible">
+<hr class="hr">
+<h1 id="heads"> SHOPPING CART</h1>
+<hr class="hr">
+</nav>
+
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th class ="th">NAME</th>
+        <th class="th"> SIZE</th>  
+        <th class ="th">PRICE</th> 
+        <th class ="th">QUANTITIES</th>
+      </tr>
+    </thead>
+    <tbody>
+     #foreach( $cloth in $clothes )
+         #foreach($cart in $carts)
+
+      <tr>
+          <td class ="td">$cloth.getName()</td> 
+          <td class ="td">$cloth.getSize()</td>
+          <td class ="td">$ $cloth.getPrice()</td> 
+          #end
+          
+                 <td class ="td">$cart.getItems()</td> 
+            #end
+            
+        </tr>
+      
+     
+      
+    </tbody>
+  </table>
+
+    </div>
